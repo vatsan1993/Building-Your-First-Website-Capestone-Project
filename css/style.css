@@ -81,7 +81,7 @@ body{
 .banner__text{
     position: absolute;
     top: 25%;
-    left: 30%;
+    left: 20%;
     margin: auto;
     padding: 10px;
     background-color: #ec0000;
@@ -107,9 +107,62 @@ body{
     margin: 10px;
     font-size: 1.5rem;
 }
+
 .desc__heading{
     font-size: 2rem;
 }
+
+/* Tracks */
+.tracks{
+    margin: 10px;
+
+}
+
+.tracks__heading{
+    font-size: 2rem;
+    text-align: center;
+    margin: 30px;
+}
+.tracks__container{
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tracks__desc{
+    text-align: center;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+/* Singe Track */
+
+.track-container{
+    width: 300px;
+    height: 500px;
+    transition: width 0.25s;
+    margin: 10px;
+}
+.track__link{
+    text-decoration: none;
+
+}
+.track__link:link, .track__link:visited{
+    color: black;
+}
+.track-container:hover{
+    width: 320px;
+}
+.track__img{
+    width: 100%;
+}
+.track__title{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.track__desc{
+    text-align: justify;
+}
+
 
 /* Footer Content */
 .ft{

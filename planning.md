@@ -38,3 +38,7 @@ Age under 18 18-25 25-40 40- 60 above 60
 email
 place
 Comments
+
+credits
+soundcloud
+agam instagram
