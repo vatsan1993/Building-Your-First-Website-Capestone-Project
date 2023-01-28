@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.disclaimer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+/* header */
+.header{
+    background-color: #ec0000;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+
+}
+
+.header__logo{
+    font-family: 'Julius Sans One';
+    color: white;
+    font-weight: 100;
+    padding: 10px 0;
+
+}
+
+.header__logo-content{
+    text-decoration: none;
+    margin: 10px;
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 6px;
+}
+
+.header__logo-content:link, .header__logo-content:visited{
+    color: black;
+    font-weight: 100;
+}
+
+/*Header nav */
+.header__nav-container{
+    list-style: none;
+}
+
+.header__nav-item{
+    margin: 10px;
+}
+
+.header__nav-link{
+    text-decoration: none;
+
+}
+
+.header__nav-link:link, .header__nav-link:visited{
+    color: black;
+}
+
+/* Banner */
+.banner{
+    position: relative;
+    top: 0;
+}
+
+.banner__img{
+    width: 100%;
+}
+
+.banner__text{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    margin: auto;
+    padding: 10px;
+    background-color: #ec0000;
+    color:black;
+    font-size: xx-large;
+    box-shadow:
+    2px 2px 5px rgb(72, 72, 72),
+    -2px -2px 5px rgb(72, 72, 72),
+    2px -2px 5px rgb(72, 72, 72),
+    -2px 2px 5px rgb(72, 72, 72);
+}
+

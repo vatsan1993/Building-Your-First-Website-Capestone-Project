@@ -1,5 +1,5 @@
 Step1 : read ,understand and curate data for the website
-fonts: Reem Kulfi, Reem Kulfi Fun, Julius Sans One , Urbanist , Expletus Sans, Marcellus SC , Tenali Rama Krishna, Lexend Peta,
+fonts: Reem Kulfi, Julius Sans One ,Expletus Sans
 
 Step 2: Design and organize the into pages using figma
 
