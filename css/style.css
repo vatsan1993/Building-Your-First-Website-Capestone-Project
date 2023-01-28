@@ -39,9 +39,9 @@ body{
 
 .header__logo-content{
     text-decoration: none;
-    margin: 10px;
+    margin: 20px;
     font-weight: 100;
-    font-size: 40px;
+    font-size: 2.5rem;
     letter-spacing: 6px;
 }
 
@@ -56,7 +56,7 @@ body{
 }
 
 .header__nav-item{
-    margin: 10px;
+    margin: 20px;
 }
 
 .header__nav-link{
@@ -94,3 +94,24 @@ body{
     -2px 2px 5px rgb(72, 72, 72);
 }
 
+/* Main Content */
+.mn{
+    width: 75%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+/* Description */
+.desc__heading, .desc__text{
+    text-align: center;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+.desc__heading{
+    font-size: 2rem;
+}
+
+/* Footer Content */
+.ft{
+
+}
