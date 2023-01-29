@@ -171,6 +171,66 @@ body{
 }
 
 
+/* gallery */
+.gallery{
+    display: grid;
+    grid-gap: 10px;
+
+    grid-template-areas:
+    "i1 i3 i2 "
+    "i4 i5 i6"
+    "i7 i7 i7"
+    "i8 i8 i8"
+    "i9 i10 i11"
+    ;
+}
+.gallery__img{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+.i1{
+    grid-area: i1;
+}
+.i2{
+    grid-area: i2;
+}
+.i3{
+    grid-area: i3;
+}
+.i4{
+    grid-area: i4;
+}
+.i5{
+    grid-area: i5;
+}
+.i6{
+    grid-area: i6;
+}
+.i7{
+    grid-area: i7;
+    width: 100%;
+}
+.i8{
+    grid-area: i8;
+    width: 100%;
+}
+.i9{
+    grid-area: i9;
+}
+.i10{
+    grid-area: i10;
+    ;
+}
+.i11{
+    grid-area: i11;
+}
+
+
+
+
+
+
 /* Footer Content */
 .ft{
     background-color: #ec0000;
@@ -189,3 +249,6 @@ body{
     margin: 10px;
     font-size: 30px;
 }
+
+
+
