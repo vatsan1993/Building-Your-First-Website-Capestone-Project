@@ -13,12 +13,20 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.center{
+    justify-content: center;
+}
+
+.space-around{
+    justify-content: space-around;
+}
 
 .disclaimer{
     background-color: black;
     text-align: center;
     color: white;
 }
+
 
 /* header */
 .header{
@@ -126,7 +134,6 @@ body{
 .tracks__container{
     list-style: none;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .tracks__desc{
@@ -166,5 +173,19 @@ body{
 
 /* Footer Content */
 .ft{
+    background-color: #ec0000;
+    width: 100%;
+    justify-content: space-around;
+    padding: 25px;
+}
 
+
+
+.ft__contact{
+    font-size: 20px;
+}
+.ft__link:link, .ft__link:visited{
+    color: black;
+    margin: 10px;
+    font-size: 30px;
 }

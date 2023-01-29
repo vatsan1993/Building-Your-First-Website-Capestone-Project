@@ -27,6 +27,7 @@ Page 2: Gallery
 images of different images of concerts,
 
 Page 3:About Us and Band Members, events
+fb and insta of each member
 
 ul containing time date and place of the event.
 
