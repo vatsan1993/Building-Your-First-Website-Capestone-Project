@@ -108,6 +108,9 @@ body{
     margin: 10px auto;
     padding: 10px;
 }
+.mn__title{
+    text-align: center;
+}
 
 /* Description */
 .desc__heading, .desc__text{
@@ -227,9 +230,48 @@ body{
 }
 
 
+/* Team */
+
+.team__main-img{
+    width: 100%;
+}
+.mn__team{
+    flex-wrap: wrap;
+}
 
 
+/* Profile */
+.profile-container{
+    list-style: none;
 
+}
+
+.profile{
+    width: 240px;
+    margin: 10px;
+}
+.profile__img{
+    width: 100%;
+}
+
+/* Event */
+.event{
+    margin: 10px;
+}
+
+.event__date{
+    width:200px;
+}
+
+.event__title{
+
+    text-align: center;
+}
+
+.event__location{
+    width: 200px;
+    text-align: right;
+}
 
 /* Footer Content */
 .ft{
@@ -244,7 +286,7 @@ body{
 .ft__contact{
     font-size: 20px;
 }
-.ft__link:link, .ft__link:visited{
+.ft__link:link, .ft__link:visited, .social__link:link, .social__link:visited{
     color: black;
     margin: 10px;
     font-size: 30px;
