@@ -96,7 +96,7 @@ body{
 
 /* Main Content */
 .mn{
-    width: 75%;
+    width: 80%;
     margin: 10px auto;
     padding: 10px;
 }
@@ -150,7 +150,7 @@ body{
     color: black;
 }
 .track-container:hover{
-    width: 320px;
+    width: 310px;
 }
 .track__img{
     width: 100%;
