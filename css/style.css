@@ -89,7 +89,7 @@ body{
 .banner__text{
     position: absolute;
     top: 25%;
-    left: 20%;
+    left: 22.5%;
     margin: auto;
     padding: 10px;
     background-color: #ec0000;
@@ -109,6 +109,7 @@ body{
     padding: 10px;
 }
 .mn__title{
+    font-size: larger;
     text-align: center;
 }
 
@@ -250,6 +251,7 @@ body{
     width: 240px;
     margin: 10px;
 }
+
 .profile__img{
     width: 100%;
 }
@@ -273,6 +275,49 @@ body{
     text-align: right;
 }
 
+/* Form */
+
+form{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+fieldset{
+    width: 600px;
+    margin: auto;
+    padding: 40px;
+}
+legend{
+    border: 1px solid black;
+}
+label, form p{
+    text-align: center;
+}
+label, input, select, textarea{
+
+    display: block;
+    margin: 10px auto;
+
+}
+
+input[type=text],input[type=email], textarea, select{
+    width: 300px;
+    padding: 5px 10px;
+}
+
+
+
+
+button{
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+}
+
+
+
+
 /* Footer Content */
 .ft{
     background-color: #ec0000;
@@ -281,7 +326,10 @@ body{
     padding: 25px;
 }
 
-
+.credits{
+    width: 400px;
+    text-align: center;
+}
 
 .ft__contact{
     font-size: 20px;

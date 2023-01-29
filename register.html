@@ -30,7 +30,46 @@
 
     </header>
     <main class="mn">
+        <h3 class="mn__title">Fan Registration</h3>
+        <form action="">
+            <div class="form__container">
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="first_name" id="firstName">
+                </div>
+                <div>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="last_name" id="lastName">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email_address" id="email">
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <select name="age" id="age">
+                        <option value="18">Under 18</option>
+                        <option value="25">18-25</option>
+                        <option value="40">24-40</option>
+                        <option value="60">40-60</option>
+                        <option value="100">Above 60</option>
+                    </select>
 
+                </div>
+                <div>
+                    <label for="place">Place</label>
+                    <input type="text" name="place" id="place">
+                </div>
+
+                <div>
+                    <label for="comment">Comment</label>
+                    <textarea name="comment" id="comment" ></textarea>
+                </div>
+                <div>
+                    <button type="submit">Register</button>
+                </div>
+            </div>
+        </form>
     </main>
     <footer class="ft ">
         <div class="ft__details flex-container space-around">
