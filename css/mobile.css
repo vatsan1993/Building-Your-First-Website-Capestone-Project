@@ -1,0 +1,69 @@
+/* media query */
+
+@media only screen and (max-width: 768px) {
+    .mobile__vflex{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    /* header */
+    .header{
+        position: unset;
+    }
+    .header__logo-content{
+        font-size: 7vw;
+    }
+    /*Header nav */
+    .header__nav-item{
+        margin: 1px;
+        font-size: 4vw;
+    }
+
+    /* banner */
+    .banner__text-container{
+        top: 10px;
+    }
+    .banner__text{
+
+        font-size: 3.5vw;
+    }
+
+    /* main */
+    .mn__title{
+        font-size: 5vw;
+        text-align: center;
+    }
+    .desc__heading{
+        font-size: 7vw;
+    }
+
+    .desc__text{
+        font-size: 5.5vw;
+    }
+
+
+    /* Tracks */
+    .tracks__heading{
+        font-size: 7vw;
+    }
+
+    .tracks__desc{
+        font-size: 5vw;
+    }
+
+    /* Single Track */
+    .track-container{
+        height: auto;
+    }
+    .track__title{
+        font-size: 7vw;
+    }
+    .track__desc{
+        text-align: center;
+    }
+
+
+/* footer */
+    .ft__details {
+        flex-direction: column;
+    }
+}

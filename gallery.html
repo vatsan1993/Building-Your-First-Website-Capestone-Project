@@ -1,78 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agam Band| Unofficial</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/6db75a0298.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6db75a0298.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+  </head>
+  <body>
     <div>
-        <p class="disclaimer">Note:  This is a practice website for learning. Not an official website. No functionality exists.</p>
+      <p class="disclaimer">
+        Note: This is a practice website for learning. Not an official website.
+        No functionality exists.
+      </p>
     </div>
-    <header class="header flex-container">
-        <h1 class="header__logo"><a class="header__logo-content" href="index.html">AGAM</a></h1>
-        <nav class="header__nav">
-            <ul class="header__nav-container flex-container">
-                <li class="header__nav-item"><a class="header__nav-link" href="index.html">Home</a></li>
-                <li class="header__nav-item"><a class="header__nav-link" href="gallery.html">Gallery</a></li>
-                <li class="header__nav-item"><a class="header__nav-link" href="about.html">About</a></li>
-                <li class="header__nav-item"><a class="header__nav-link"  href="register.html">Register</a></li>
-            </ul>
-        </nav>
-
+    <header class="header flex-container mobile__vflex">
+      <h1 class="header__logo">
+        <a class="header__logo-content" href="index.html">AGAM</a>
+      </h1>
+      <nav class="header__nav">
+        <ul class="header__nav-container flex-container mobile__vflex">
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="index.html">Home</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="about.html">About</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="register.html">Register</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main class="mn">
-        <div class="gallery">
-            <img class="i1 gallery__img" src="images/img1.jpg" alt="">
-            <img class="i2 gallery__img" src="images/img2.jpg" alt="">
-            <img class="i3 gallery__img" src="images/img3.jpg" alt="">
-            <img class="i4 gallery__img" src="images/img4.jpg" alt="">
-            <img class="i5 gallery__img" src="images/img5.jpg" alt="">
-            <img class="i6 gallery__img" src="images/img6.jpg" alt="">
-            <img class="i7 gallery__img" src="images/img7.jpg" alt="">
-            <img class="i8 gallery__img" src="images/img8.jpg" alt="">
-            <img class="i9 gallery__img" src="images/img9.jpg" alt="">
-            <img class="i10 gallery__img" src="images/img10.jpg" alt="">
-            <img class="i11 gallery__img" src="images/img11.jpg" alt="">
-        </div>
-
+      <div class="gallery">
+        <img class="i1 gallery__img" src="images/img1.jpg" alt="" />
+        <img class="i2 gallery__img" src="images/img2.jpg" alt="" />
+        <img class="i3 gallery__img" src="images/img3.jpg" alt="" />
+        <img class="i4 gallery__img" src="images/img4.jpg" alt="" />
+        <img class="i5 gallery__img" src="images/img5.jpg" alt="" />
+        <img class="i6 gallery__img" src="images/img6.jpg" alt="" />
+        <img class="i7 gallery__img" src="images/img7.jpg" alt="" />
+        <img class="i8 gallery__img" src="images/img8.jpg" alt="" />
+        <img class="i9 gallery__img" src="images/img9.jpg" alt="" />
+        <img class="i10 gallery__img" src="images/img10.jpg" alt="" />
+        <img class="i11 gallery__img" src="images/img11.jpg" alt="" />
+      </div>
     </main>
-    <footer class="ft ">
-        <div class="ft__details flex-container space-around">
-            <img class="ft__logo" src="images/logo.jpg" alt="agam logo">
-            <div class="credits">
-                <h5 class="credits__title">Credits</h5>
-                <p class="credits__text">Agam Facebook</p>
-                <p class="credits__text">Agam Instagram</p>
-                <p class="credits__text">Agam Spotify</p>
-                <p class="credits__text">Agam SoundCloud</p>
-                <p class="credits__text">Wikipedia</p>
-            </div>
-            <div class="ft__contact">
-                <div class="ft__socials flex-container center">
-                    <a class="ft__link" href="https://www.facebook.com/agamtheband">
-                        <i class="fa-brands fa-square-facebook"></i>
-                    </a>
-                    <a class="ft__link" href="https://www.instagram.com/agamtheband/?hl=en">
-                        <i class="fa-brands fa-square-instagram"></i>
-                    </a>
-
-                </div>
-                <p><i class="fa-solid fa-envelope"></i> agamtheband@gmail.com </p>
-                <p><i class="fa-solid fa-phone"></i> +91-9048109000</p>
-                <p><i class="fa-solid fa-location-dot"></i> Bangalore</p>
-
-            </div>
+    <footer class="ft">
+      <div class="ft__details flex-container space-around">
+        <img class="ft__logo" src="images/logo.jpg" alt="agam logo" />
+        <div class="credits">
+          <h5 class="credits__title">Credits</h5>
+          <p class="credits__text">Agam Facebook</p>
+          <p class="credits__text">Agam Instagram</p>
+          <p class="credits__text">Agam Spotify</p>
+          <p class="credits__text">Agam SoundCloud</p>
+          <p class="credits__text">Wikipedia</p>
         </div>
-
+        <div class="ft__contact">
+          <div class="ft__socials flex-container center">
+            <a class="ft__link" href="https://www.facebook.com/agamtheband">
+              <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a
+              class="ft__link"
+              href="https://www.instagram.com/agamtheband/?hl=en"
+            >
+              <i class="fa-brands fa-square-instagram"></i>
+            </a>
+          </div>
+          <p><i class="fa-solid fa-envelope"></i> agamtheband@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> +91-9048109000</p>
+          <p><i class="fa-solid fa-location-dot"></i> Bangalore</p>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
