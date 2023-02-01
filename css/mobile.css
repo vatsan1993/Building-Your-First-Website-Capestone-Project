@@ -73,6 +73,35 @@
 
         margin: 5vw auto ;
     }
+
+    /* Event */
+    .event{
+        border: 1px solid black;
+    }
+    .event__date{
+        width:auto;
+        margin:2px  10px;
+    }
+
+    .event__title{
+        margin:2px  10px;
+        text-align: left;
+    }
+
+    .event__location{
+        margin:2px 10px;
+        width: auto;
+        text-align: left;
+    }
+/* Form */
+    fieldset{
+        width: 100%;
+        padding: 0;
+    }
+    input[type=text],input[type=email], textarea, select, button{
+        width: 100%;
+    }
+
 /* footer */
 
     .ft__details {
@@ -80,5 +109,8 @@
         flex-direction: column;
         text-align: center;
         font-size: 4vw;
+    }
+    .credits{
+        width: 100%;
     }
 }
