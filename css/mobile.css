@@ -61,9 +61,24 @@
         text-align: center;
     }
 
+    /* gallery */
+    .gallery{
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
 
+    .gallery__img{
+        width: 100%;
+
+        margin: 5vw auto ;
+    }
 /* footer */
+
     .ft__details {
+        width: 100%;
         flex-direction: column;
+        text-align: center;
+        font-size: 4vw;
     }
 }
